@@ -614,6 +614,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   grid-column-end: 3;
 }
 
+.col-end-4 {
+  grid-column-end: 4;
+}
+
+.col-end-2 {
+  grid-column-end: 2;
+}
+
 .my-3 {
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
@@ -715,6 +723,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .max-w-md {
   max-width: 28rem;
+}
+
+.max-w-5xl {
+  max-width: 64rem;
 }
 
 .flex-1 {
@@ -871,6 +883,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .px-28 {
   padding-left: 7rem;
   padding-right: 7rem;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 
 .pr-4 {
