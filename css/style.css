@@ -689,6 +689,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 4rem;
 }
 
+.mb-14 {
+  margin-bottom: 3.5rem;
+}
+
 .block {
   display: block;
 }
@@ -743,6 +747,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .max-w-5xl {
   max-width: 64rem;
+}
+
+.max-w-lg {
+  max-width: 32rem;
 }
 
 .flex-1 {
@@ -990,6 +998,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .leading-snug {
   line-height: 1.375;
+}
+
+.leading-tight {
+  line-height: 1.25;
 }
 
 .tracking-widest {
