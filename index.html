@@ -20,8 +20,8 @@
     <title>News</title>
   </head>
   <body class="bg-AlmostWhite font-Inter">
-    <main class="container mt-10 px-20">
-      <nav class="flex justify-between items-center">
+    <main class="container mt-10">
+      <nav class="flex justify-between items-center px-10 md:px-28">
         <img src="./images/logo.svg" alt="" />
         <ul
           class="hidden md:flex justify-around items-center space-x-4 text-Gunmetal"
@@ -107,7 +107,7 @@
       <section id="hero " class="flex-flex-col justify-center items-center">
         <div class="grid grid-cols-1 md:grid-cols-12 gap-4 mt-20">
           <!-- img col -->
-          <div class="col-span-1 md:col-span-9">
+          <div class="col-start-2 md:col-start-2 md:col-end-9">
             <img
               class="hidden md:block"
               src="images/image-web-3-desktop.jpg"
@@ -133,7 +133,9 @@
             </div>
           </div>
           <!-- news col -->
-          <div class="bg-DarkSpaceBlue text-Yellow md:col-span-3 pr-4">
+          <div
+            class="bg-DarkSpaceBlue text-Yellow col-start-2 md:col-span-3 pr-4"
+          >
             <div class="ml-4 mt-5">
               <h1 class="font-bold text-3xl">New</h1>
               <div class="my-4 border-b border-dotted pb-4">
@@ -164,7 +166,7 @@
               </div>
             </div>
           </div>
-          <div class="col-span-1 md:col-span-12">
+          <div class="col-start-2 col-end-3 md:col-start-2 md:col-end-13">
             <!-- bottom hero -->
             <div
               class="mt-20 flex flex-col md:flex-row space-y-4 md:space-y-0 justify-evenly items-center"
