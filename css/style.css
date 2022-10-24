@@ -913,6 +913,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.hover\:text-LightVermillion:hover {
+  --tw-text-opacity: 1;
+  color: rgb(241 93 81 / var(--tw-text-opacity));
+}
+
 .group:hover .group-hover\:text-LightVermillion {
   --tw-text-opacity: 1;
   color: rgb(241 93 81 / var(--tw-text-opacity));
